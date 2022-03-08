@@ -8,6 +8,7 @@ import { HuseRef } from './components/HuseRef';
 import { ThemeChange } from './components/ThemeChange';
 import { HuseReducer } from './components/HuseReducer/HuseReducer';
 import { HuseMemo } from './components/HuseMemo';
+import { HuseCallBack } from './components/HuseCallBack';
 
 function App() {
   return (
@@ -22,7 +23,8 @@ function App() {
       {/* <HuseRef/> */}
       {/* <ThemeChange/> */}
       {/* <HuseReducer/> */}
-      <HuseMemo/>
+      {/* <HuseMemo/> */}
+      <HuseCallBack/>
     </div>
   );
 }
