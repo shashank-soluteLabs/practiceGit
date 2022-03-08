@@ -5,6 +5,8 @@ import { Toggle } from './components/Toggle';
 import { LoginControl } from './components/LoginControl';
 import { Calculator } from './components/Calculator';
 import { HuseRef } from './components/HuseRef';
+import { ThemeChange } from './components/ThemeChange';
+import { HuseReducer } from './components/HuseReducer/HuseReducer';
 
 function App() {
   return (
@@ -16,7 +18,9 @@ function App() {
       <LoginControl/>
       <hr/>
       <Calculator/> */}
-      <HuseRef/>
+      {/* <HuseRef/> */}
+      {/* <ThemeChange/> */}
+      <HuseReducer/>
     </div>
   );
 }
