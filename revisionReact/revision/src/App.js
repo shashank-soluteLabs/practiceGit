@@ -7,6 +7,7 @@ import { Calculator } from './components/Calculator';
 import { HuseRef } from './components/HuseRef';
 import { ThemeChange } from './components/ThemeChange';
 import { HuseReducer } from './components/HuseReducer/HuseReducer';
+import { HuseMemo } from './components/HuseMemo';
 
 function App() {
   return (
@@ -20,7 +21,8 @@ function App() {
       <Calculator/> */}
       {/* <HuseRef/> */}
       {/* <ThemeChange/> */}
-      <HuseReducer/>
+      {/* <HuseReducer/> */}
+      <HuseMemo/>
     </div>
   );
 }
