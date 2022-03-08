@@ -4,17 +4,19 @@ import { Clock } from './components/Clock';
 import { Toggle } from './components/Toggle';
 import { LoginControl } from './components/LoginControl';
 import { Calculator } from './components/Calculator';
+import { HuseRef } from './components/HuseRef';
 
 function App() {
   return (
     <div className="App">
-      <Clock/>
+      {/* <Clock/>
       <hr/>
       <Toggle/>
       <hr/>
       <LoginControl/>
       <hr/>
-      <Calculator/>
+      <Calculator/> */}
+      <HuseRef/>
     </div>
   );
 }
