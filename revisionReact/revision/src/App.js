@@ -9,6 +9,8 @@ import { ThemeChange } from './components/ThemeChange';
 import { HuseReducer } from './components/HuseReducer/HuseReducer';
 import { HuseMemo } from './components/HuseMemo';
 import { HuseCallBack } from './components/HuseCallBack';
+import { HOC } from './components/HOC';
+import { Counter } from './components/Counter';
 
 function App() {
   return (
@@ -24,7 +26,10 @@ function App() {
       {/* <ThemeChange/> */}
       {/* <HuseReducer/> */}
       {/* <HuseMemo/> */}
-      <HuseCallBack/>
+      {/* <HuseCallBack/> */}
+      <HOC cmp={Counter}/>
+      <HOC cmp={Counter}/>
+      {/* <Counter/> */}
     </div>
   );
 }
