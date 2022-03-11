@@ -7,3 +7,5 @@ export const HOC = (props) => {
     </div>
   )
 }
+
+// HOC are added
